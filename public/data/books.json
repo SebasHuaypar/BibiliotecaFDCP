@@ -1,0 +1,53 @@
+
+[
+  {
+    "id": 1,
+    "title": "Introducción a la sociología del derecho",
+    "author": "Renato Reves",
+    "cover": "/covers/intro_soc_dere.PNG",
+    "pdfPath": "/pdfs/intro_soc_dere.pdf",
+    "category": "Derecho",
+    "featured": true,
+    "isNew": true
+  },
+  {
+    "id": 2,
+    "title": "Diccionario Jurídico Elemental",
+    "author": "Guillermo Cabanellas de Torres",
+    "cover": "/covers/dicc_juridico.PNG",
+    "pdfPath": "/pdfs/dicc_juridico.pdf",
+    "category": "Diccionario",
+     "featured": true,
+    "mostRead": true
+  },
+  {
+    "id": 3,
+    "title": "Investigar con Mapas Conceptuales",
+    "author": "José Arellano",
+    "cover": "/covers/inv_map_conc.PNG",
+    "pdfPath": "/pdfs/inv_map_conc.pdf",
+    "category": "Investigación",
+     "featured": true,
+    "isNew": true
+  },
+    {
+    "id": 4,
+    "title": "El sistema jurídico",
+    "author": "Rubio Correas",
+    "cover": "/covers/sis_juridico.PNG",
+    "pdfPath": "/pdfs/sis_juridico.pdf",
+    "category": "Derecho",
+    "mostRead": true,
+    "isNew": true
+  },
+   {
+    "id": 5,
+    "title": "Guía Normas APA 7ma edición",
+    "author": "Sin Autor",
+    "cover": "/covers/normas_apa.PNG",
+    "pdfPath": "/pdfs/normas_apa.pdf",
+    "category": "Normativas",
+     "featured": true,
+     "isNew": true
+  }
+]

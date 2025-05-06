@@ -1,0 +1,80 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    /* Custom Colors from User Request */
+    --color-navy: 236 65% 30%;     /* Azul noche #1a237e */
+    --color-orange: 16 100% 63%;   /* Naranja #ff7043 */
+    --color-yellow: 45 100% 51%;   /* Amarillo #ffca28 */
+    --color-white: 0 0% 100%;    /* Blanco #ffffff */
+    --color-gray: 0 0% 96%;     /* Gris claro #f5f5f5 */
+    --color-dark: 210 17% 18%;     /* Oscuro para textos #263238 */
+
+    /* ShadCN Theme Variables (Light Theme based on user colors) */
+    --background: var(--color-white); /* White background */
+    --foreground: var(--color-dark); /* Dark text */
+
+    --card: var(--color-white);
+    --card-foreground: var(--color-dark);
+
+    --popover: var(--color-white);
+    --popover-foreground: var(--color-dark);
+
+    --primary: var(--color-navy); /* Navy */
+    --primary-foreground: var(--color-white); /* White text on navy */
+
+    --secondary: var(--color-gray); /* Light gray */
+    --secondary-foreground: var(--color-dark); /* Dark text on light gray */
+
+    --muted: var(--color-gray); /* Light gray */
+    --muted-foreground: 210 15% 45%; /* Slightly lighter dark text for muted */
+
+    --accent: var(--color-orange); /* Orange */
+    --accent-foreground: var(--color-dark); /* Dark text on orange for contrast */
+
+    --destructive: 0 84% 60%; /* Standard red */
+    --destructive-foreground: 0 0% 98%; /* Light text on red */
+
+    --border: 210 20% 88%; /* Lighter gray for borders */
+    --input: 210 20% 88%; /* Lighter gray for input borders */
+    --ring: var(--color-navy); /* Navy for focus rings */
+
+    --radius: 0.5rem;
+
+    /* Chart Colors (using user palette) */
+    --chart-1: var(--color-navy);
+    --chart-2: var(--color-orange);
+    --chart-3: var(--color-yellow);
+    --chart-4: 236 65% 50%; /* Lighter Navy */
+    --chart-5: 16 100% 75%; /* Lighter Orange */
+
+    /* Sidebar Specific - Assuming similar theme */
+    --sidebar-background: var(--background);
+    --sidebar-foreground: var(--foreground);
+    --sidebar-primary: var(--primary);
+    --sidebar-primary-foreground: var(--primary-foreground);
+    --sidebar-accent: var(--accent);
+    --sidebar-accent-foreground: var(--accent-foreground);
+    --sidebar-border: var(--border);
+    --sidebar-ring: var(--ring);
+  }
+
+  /* Optional Dark Theme (if you want to support it later) */
+  /* .dark { */
+    /* Define dark theme variables here */
+    /* --background: 210 17% 10%; */
+    /* --foreground: 0 0% 98%; */
+    /* ... etc ... */
+  /* } */
+}
+
+@layer base {
+  * {
+    @apply border-border;
+  }
+  body {
+    @apply bg-background text-foreground;
+  }
+}
