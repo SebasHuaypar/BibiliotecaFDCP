@@ -8,8 +8,8 @@ import { Toaster } from '@/components/ui/toaster'; // Import Toaster
 const inter = Inter({ subsets: ['latin'] });
 
 export const metadata: Metadata = {
-  title: 'BiblioStatic - Virtual Library',
-  description: 'A static virtual library website',
+  title: 'Biblioteca FDCP',
+  description: 'Biblioteca de la Facultad de Derecho y Ciencias Políticas',
 };
 
 export default function RootLayout({
